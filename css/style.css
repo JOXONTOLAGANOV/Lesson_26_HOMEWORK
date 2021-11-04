@@ -1,4 +1,75 @@
 .col-md-5 {
     position: relative;
-    right: 110px;
+    right: 100px;
+    bottom: 60px;
 }
+
+.text{
+    position: absolute;
+    bottom: 280px;
+    z-index: 3;
+    left: 100px;
+    color: white;
+    font-size: 50px;
+    width: 130%;
+}
+
+.text_1{
+    position: absolute;
+    bottom: 230px;
+    z-index: 3;
+    left: 110px; 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link{
+    position: absolute;
+    bottom: 180px;
+    z-index: 3;
+    left: 110px; 
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.link_1{
+     position: absolute;
+    bottom: 180px;
+    z-index: 3;
+    left: 250px; 
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+
+
+@media (max-width:1200px){
+    .link_1{
+        width: 60% !important;
+    }
+}
+
+.link:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.link_1:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+
+
